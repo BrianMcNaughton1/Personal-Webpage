@@ -71,4 +71,48 @@ footer {
 .button:hover {
   background-color: #005fa3;
 }
+.contact-page {
+  max-width: 700px;
+  margin: 2rem auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.contact-page ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contact-page li {
+  margin-bottom: 0.8rem;
+}
+
+.contact-page a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact-page a:hover {
+  text-decoration: underline;
+}
+
+.back-link {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.button {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005fa3;
+}
 
