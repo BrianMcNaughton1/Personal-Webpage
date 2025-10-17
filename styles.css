@@ -53,3 +53,22 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.back-link {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.button {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005fa3;
+}
+
