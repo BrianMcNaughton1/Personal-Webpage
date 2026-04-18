@@ -211,3 +211,84 @@ footer {
   border-top: 1px solid #ddd;
   margin-top: 40px;
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 30px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+}
+
+.header-text {
+  flex: 1;
+  min-width: 260px;
+  text-align: center;
+}
+
+.header-text h1 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+}
+
+.header-text h2 {
+  margin: 0 0 16px;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #555;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+}
