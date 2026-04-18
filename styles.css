@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -135,4 +135,84 @@ footer {
 .button:hover {
   background-color: #005fa3;
 }
+ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
 
+/* Photo in top-left corner */
+#intro {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+#intro img {
+  width: 220px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Push page content to the right so it doesn't overlap the image */
+#content {
+  margin-left: 280px;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+header h2 {
+  margin-top: 0;
+  font-weight: normal;
+  color: #666;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#projects {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#projects ul {
+  padding-left: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #777;
+}
