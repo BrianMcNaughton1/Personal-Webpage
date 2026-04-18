@@ -57,17 +57,7 @@ footer {
   text-align: center;
   margin-top: 2rem;
 }
-#intro {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
-#intro img {
-  display: block;
-  width: 250px;
-  height: auto;
-}
 .button {
   background-color: #0077cc;
   color: white;
