@@ -250,6 +250,7 @@ header {
 .header-text h1 {
   margin: 0 0 8px;
   font-size: 2rem;
+    color: #555;
 }
 
 .header-text h2 {
