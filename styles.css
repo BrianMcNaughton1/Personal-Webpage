@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -284,6 +284,154 @@ main {
   max-width: 1000px;
   margin: 30px auto;
   padding: 0 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+} */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 30px 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+}
+
+.header-text {
+  flex: 1;
+  min-width: 260px;
+  text-align: center;
+}
+
+.header-text h1 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+  color: #555;
+}
+
+.header-text h2 {
+  margin: 0 0 16px;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #555;
+}
+
+nav ul,
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a,
+.nav-links li a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+nav ul li a:hover,
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.contact-page {
+  max-width: 700px;
+  margin: 2rem auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.contact-page ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contact-page li {
+  margin-bottom: 0.8rem;
+}
+
+.contact-page a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact-page a:hover {
+  text-decoration: underline;
+}
+
+.back-link {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.button {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005fa3;
 }
 
 footer {
